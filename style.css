@@ -1,0 +1,563 @@
+/* Main Page styles */
+#mainPageId {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+#main-page {
+    width: 100%;
+    max-width: 800px;
+    margin: 30px auto;
+}
+
+#main-page h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #4b4f56;
+    font-size: 24px;
+}
+
+#main-page h6 {
+    margin-bottom: 20px;
+    color: #666;
+    font-size: 14px;
+    text-align: center;
+}
+
+#main-page .table-container {
+    overflow-x: auto;
+    align-self: center;
+}
+
+#main-page table {
+    margin-top: 5%;
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+#main-page th,
+td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+#display-text {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-top: 50px;
+    line-height: 1.5;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  
+#main-page th {
+    background-color: rgb(216, 234, 255);
+    color: #4b4f56;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+#main-page tr:nth-child(even) {
+    background-color: #f5f6f7;
+}
+
+#main-page tr:hover {
+    background-color: #ebedef;
+    cursor: pointer;
+}
+/* Registration page styles */
+
+
+
+#regBody .registration-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    background-color: #ffffff;
+}
+
+#regBody h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #4b4f56;
+    font-size: 24px;
+}
+
+#regBody label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+#regBody input {
+    width: 100%;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+#regBody button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #7188af;
+    color: #ffffff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#regBody button:hover {
+    background-color: #7188af;
+}
+
+#regBody .back-to-login {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    text-decoration: none;
+    color: #7188af;
+}
+
+#regBody .back-to-login:hover {
+    text-decoration: underline;
+}
+
+
+/* Sample page styles */
+#samplePageID {
+    background-color: #f5f5f5;
+    align-items: center;
+}
+
+#samplePageID .container {
+    max-width: 850px;
+    margin: 0 auto;
+    margin-top: 20px;
+    align-self: center;
+}
+
+#samplePageID h1 {
+    text-align: center;
+    color: #333;
+    margin-top: 50px;
+}
+
+#samplePageID table {
+    width: 100%;
+    margin-top: 50px;
+    border-collapse: separate;
+    border-spacing: 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+    overflow: hidden;
+    background-color: #fff;
+    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#samplePageID th,
+td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+#samplePageID th {
+    background-color: #e9ebee;
+    color: #333;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+#samplePageID tr:nth-child(even) {
+    background-color: #f5f6f7;
+}
+
+#samplePageID tr:hover {
+    background-color: #ebedef;
+    cursor: pointer;
+}
+
+#samplePageID td input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    margin: 0;
+    cursor: pointer;
+    background-color: rgb(216, 234, 255);
+}
+
+#samplePageID button {
+    display: block;
+    margin: 30px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(216, 234, 255);
+    background-color: #819fe0;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+#samplePageID button:hover {
+    background-color: #819fe0;
+}
+
+#samplePageID {
+  background-color: #f5f5f5;
+}
+
+#samplePageID .container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 50px;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+#samplePageID h1 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+#samplePageID table {
+  width: 100%;
+  margin-top: 50px;
+  border-collapse: separate;
+  border-spacing: 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+#samplePageID th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+#samplePageID th {
+  background-color: #e9ebee;
+  color: #333;
+  text-transform: uppercase;
+  font-weight: normal;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+#samplePageID tr:nth-child(even) {
+  background-color: #f5f6f7;
+}
+
+#samplePageID tr:hover {
+  background-color: #ebedef;
+  cursor: pointer;
+}
+
+#samplePageID td input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  margin: 0;
+  cursor: pointer;
+}
+
+#samplePageID button {
+  display: block;
+  margin: 30px auto;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  background-color: #4f96aa;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+#samplePageID button:hover {
+  background-color: #3e8e41;
+}
+
+
+.smiley {
+    width: 20px;
+    height: 20px;
+  }
+  
+
+#logPAGE .parent-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+  }
+  
+
+#emailLabel, #passwordLabel{
+    color: rgb(124, 218, 255);
+}
+/* login page styles */
+#logPAGE body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 10;
+    padding: 10;
+    list-style: none;
+    outline: 0;
+    background: rgb(190, 220, 255);
+    transition: 1s;
+    min-height: 100vh;
+    width: 100%;
+    align-items: center;
+    color: rgb(190, 220, 255);
+}
+
+#logPAGE h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+
+#logPAGE .form {
+    background: rgb(216, 234, 255);
+    width: 40%;
+
+    box-sizing: border-box;
+    box-shadow: 1px 3px 3px 7px rgb(216, 234, 255);
+    transition: 1s;
+    border-radius: 2px;
+    transform: translateX(100px);
+    align-self: center;
+    margin-right: 10%;
+}
+
+#logPAGE .avater {
+    width: 100%;
+    position: relative;
+    width: 190px;
+    height: 190px;
+    border-radius: 50%;
+    transition: 1s;
+    margin: 1% auto;
+    overflow: hidden;
+}
+
+#logPAGE .avater img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    transition: 1s;
+    filter: blur(0.6px);
+}
+
+#logPAGE .field {
+    width: 80%;
+    margin: 0 auto;
+    transition: 1s;
+}
+
+#logPAGE .field label {
+    color: rgb(0, 0, 0);
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+#logPAGE .field input[type=text], .field input[type=password] {
+    display: block;
+    background: rgb(255, 255, 255);
+    height: 29px;
+    width: 200px;
+    border: 2px solid rgb(185, 169, 169);
+    border-radius: 2px;
+    padding: 5px;
+    font-size: 15px;
+    text-transform: capitalize;
+    margin-top: 4%;
+    transition: 1s;
+}
+
+#logPAGE .field input[type=submit] {
+    background-color: rgb(176, 208, 255);
+    display: block;
+    height: 29px;
+    width: 107%;
+    border: none;
+    border-radius: 2px;
+    padding: 5px;
+    font-size: 15px;
+    text-transform: capitalize;
+    margin-top: 1%;
+    box-shadow: 0 2px 5px rgb(164, 164, 143);
+    font-weight: 900;
+    color: currentColor;
+    text-align: center;
+    cursor: pointer;
+    transition: 1s;
+    border-radius: 2px;
+}
+
+#logPAGE .field input[type=submit]:hover {
+    background: black;
+    color: white;
+    box-shadow: 0 2px 5px white;
+}
+
+#logPAGE .header {
+    background-color: #71c4ff;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+#logPAGE .header__title {
+    margin: 0;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+#logPAGE .main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 4rem);
+    width: 100%;
+}
+#logPAGE h3{
+    text-align: center;
+font-family: cursive;
+color: #000000
+}
+#logPAGE h6{
+font-family: cursive;
+color: #4b4f56;}
+#logPAGE .container {
+    width: 80%;
+    max-width: 1200px;
+    padding: 1rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+}
+  #logPAGE label{ 
+    font-family: cursive;
+padding-bottom: -24%;
+  }
+  #logPAGE #email { 
+    width: 100%;
+    height: 40px; 
+    
+  }
+  #logPAGE #password { 
+    width: 100%;
+    height: 40px; 
+  }
+#loginbutton {
+    background-color: #69aacd;
+    color: white;
+    font-size: 1.1em;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    padding: 12px 24px;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.2s;
+    align-self: center;
+  }
+  
+  #loginbutton:hover {
+    background-color: #6bcb6f;
+    transform: scale(1.05);
+  }
+  
+  
+.error-container {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 14px;
+  }
+
+  
+nav {
+    background-color: rgb(55, 55, 55);
+    height: 70px;
+    border-radius: 10px;
+    width: 100%;
+
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+  }
+  
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    line-height: 1;
+    flex-grow: 1;
+  }
+  
+  nav a:hover {
+    background-color: white;
+    color: black;
+  }
+  
+
+  table tbody tr {
+    position: relative;
+}
+
+table tbody tr.strikethrough::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 1px; /* adjust for line thickness */
+    background: black; /* adjust for line color */
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.strikethrough {
+  text-decoration: line-through;
+}
